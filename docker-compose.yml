@@ -1,0 +1,8 @@
+services:
+  app:
+    build: .
+    env_file: .env
+    volumes:
+      - ./data:/app/data                                        # SQLite 資料庫目錄
+      - ./auth_state.json:/app/auth_state.json:ro               # X 登入 session（選用）
+    restart: unless-stopped
