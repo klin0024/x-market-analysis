@@ -2,7 +2,7 @@
 
 監控 X（Twitter）關鍵人物的貼文，透過 AI 分析市場影響，並即時推送 LINE 通知。
 
-![elonmusk](images/elonmusk.jpg) ![federalreserve](images/federalreserve.jpg)
+![elonmusk|300](images/elonmusk.jpg) ![federalreserve|300](images/federalreserve.jpg)
 
 ## 架構
 
